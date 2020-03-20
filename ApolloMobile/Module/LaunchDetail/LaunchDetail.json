@@ -1,0 +1,16 @@
+{
+  "data": {
+    "launch": {
+      "id": "91",
+      "site": "CCAFS SLC 40",
+      "mission": {
+        "name": "CRS-20",
+        "missionPatch": "https://images2.imgbox.com/15/2b/NAcsTEB6_o.png"
+      },
+      "rocket": {
+        "name": "Falcon 9",
+        "type": "FT"
+      }
+    }
+  }
+}

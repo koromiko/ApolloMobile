@@ -1,0 +1,16 @@
+query GetLaunches($cursor: String, $pageSize: Int = 15) {
+  launches(after:$cursor, pageSize: $pageSize) {
+    launches {
+      id
+      rocket {
+        name
+      }
+      mission {
+        name
+        missionPatch(size: SMALL)
+      }
+    }
+    hasMore
+    cursor
+  }
+}

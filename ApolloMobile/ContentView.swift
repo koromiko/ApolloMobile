@@ -8,6 +8,16 @@
 
 import SwiftUI
 
+//struct Launch: Identifiable {
+//    var id: String
+//    var name: String
+//    var imageUrl: String
+//}
+
+
+
+
+
 struct ContentView: View {
     var body: some View {
         Text("Hello, World!")
